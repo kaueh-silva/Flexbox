@@ -9,11 +9,54 @@
     justify-content:center;
     align-items: center;
     flex-direction: row;
-    background-color: aqua;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 .child{
     width: 20%;
     height: 200px;
     background: red;
     border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+nav{
+    background: pink;
+    width: 400px;
+    height:80px;
+    margin: 0px auto;k
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:;
+    
+}
+
+nav ul li  {
+    display: inline;
+    margin: 10px;
+    
+}
+
+ul{
+    margin-top: 50px;
+    list-style: none;
+  
+    height: 30px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-radius: 10px;
+    width: 5px;
 }
